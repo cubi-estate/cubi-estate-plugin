@@ -27,6 +27,19 @@ All of the plugin's tools are **read-only**: they search and read listing data a
 
 ## Setup
 
+In Claude Code, install the plugin from this repository:
+
+```
+/plugin install cubi-estate --marketplace cubi-estate/cubi-estate-plugin
+```
+
+On Claude Code versions before 2.1.275, add the marketplace first, then install:
+
+```
+/plugin marketplace add cubi-estate/cubi-estate-plugin
+/plugin install cubi-estate@cubi-estate
+```
+
 After you add the plugin, connect **Cubi Estate** on the plugin's **Connectors** tab. No account or sign-in is needed: anonymous use is rate-limited, with a daily budget that ordinary conversational use will not reach. Clients that support it may instead connect per user with OAuth.
 
 ## Data and privacy

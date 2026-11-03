@@ -1,0 +1,24 @@
+{
+  "name": "cubi-estate",
+  "owner": {
+    "name": "Cubi Estate",
+    "email": "support@cubi.estate",
+    "url": "https://www.cubi.estate"
+  },
+  "metadata": {
+    "description": "The Cubi Estate plugin for Claude Code: European property search through Cubi Estate's read-only connector."
+  },
+  "plugins": [
+    {
+      "name": "cubi-estate",
+      "source": "./",
+      "description": "Search 2.2M+ homes for sale and rent across 17 European countries, open full listing details, compare an asking price with similar homes, and see how a market is moving, through Cubi Estate's read-only connector.",
+      "version": "1.0.0",
+      "author": { "name": "Cubi Estate", "url": "https://www.cubi.estate" },
+      "homepage": "https://www.cubi.estate",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["real-estate", "property-search", "europe", "housing", "rentals"]
+    }
+  ]
+}
